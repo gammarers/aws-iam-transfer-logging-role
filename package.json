@@ -16,6 +16,7 @@
     "eslint": "npx projen eslint",
     "package": "npx projen package",
     "package-all": "npx projen package-all",
+    "package:js": "npx projen package:js",
     "post-compile": "npx projen post-compile",
     "post-upgrade": "npx projen post-upgrade",
     "pre-compile": "npx projen pre-compile",
@@ -50,7 +51,7 @@
     "jsii-docgen": "^10.5.0",
     "jsii-pacmak": "^1.103.1",
     "jsii-rosetta": "5.4.x",
-    "projen": "^0.86.9",
+    "projen": "^0.87.0",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "5.4.x"
