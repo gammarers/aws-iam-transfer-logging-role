@@ -152,7 +152,7 @@ The policy to attach.
 ##### `grant` <a name="grant" id="@gammarers/aws-iam-transfer-logging-role.IamTransferLoggingRole.grant"></a>
 
 ```typescript
-public grant(grantee: IPrincipal, actions: string): Grant
+public grant(grantee: IPrincipal, actions: ...string[]): Grant
 ```
 
 Grant the actions defined in actions to the identity Principal on this resource.
@@ -165,7 +165,7 @@ Grant the actions defined in actions to the identity Principal on this resource.
 
 ###### `actions`<sup>Required</sup> <a name="actions" id="@gammarers/aws-iam-transfer-logging-role.IamTransferLoggingRole.grant.parameter.actions"></a>
 
-- *Type:* string
+- *Type:* ...string[]
 
 ---
 
