@@ -10,8 +10,9 @@ const project = new awscdk.AwsCdkConstructLibrary({
   name: '@gammarers/aws-iam-transfer-logging-role',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/gammarers/aws-iam-transfer-logging-role.git',
-  releaseToNpm: false, // temporary
+  releaseToNpm: true,
   npmAccess: javascript.NpmAccess.PUBLIC,
+  majorVersion: 1,
   depsUpgrade: true,
   depsUpgradeOptions: {
     workflowOptions: {
