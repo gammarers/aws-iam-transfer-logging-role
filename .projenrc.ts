@@ -5,8 +5,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
   authorOrganization: true,
   cdkVersion: '2.189.1',
   defaultReleaseBranch: 'main',
-  typescriptVersion: '5.7.x',
-  jsiiVersion: '5.7.x',
+  typescriptVersion: '5.8.x',
+  jsiiVersion: '5.8.x',
   name: '@gammarers/aws-iam-transfer-logging-role',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/gammarers/aws-iam-transfer-logging-role.git',
@@ -17,7 +17,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   depsUpgradeOptions: {
     workflowOptions: {
       labels: ['auto-approve', 'auto-merge'],
-      schedule: javascript.UpgradeDependenciesSchedule.expressions(['17 16 8 * 3']),
+      schedule: javascript.UpgradeDependenciesSchedule.expressions(['17 16 8 * *']),
     },
   },
   minNodeVersion: '18.0.0',
