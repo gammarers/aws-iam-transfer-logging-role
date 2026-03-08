@@ -43,6 +43,7 @@ new IamTransferLoggingRole(scope: Construct, id: string, props?: IamTransferLogg
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@gammarers/aws-iam-transfer-logging-role.IamTransferLoggingRole.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@gammarers/aws-iam-transfer-logging-role.IamTransferLoggingRole.with">with</a></code> | Applies one or more mixins to this construct. |
 | <code><a href="#@gammarers/aws-iam-transfer-logging-role.IamTransferLoggingRole.applyRemovalPolicy">applyRemovalPolicy</a></code> | Skip applyRemovalPolicy if role synthesis is prevented by customizeRoles. |
 | <code><a href="#@gammarers/aws-iam-transfer-logging-role.IamTransferLoggingRole.addManagedPolicy">addManagedPolicy</a></code> | Attaches a managed policy to this role. |
 | <code><a href="#@gammarers/aws-iam-transfer-logging-role.IamTransferLoggingRole.addToPolicy">addToPolicy</a></code> | Add to the policy of this principal. |
@@ -62,6 +63,27 @@ public toString(): string
 ```
 
 Returns a string representation of this construct.
+
+##### `with` <a name="with" id="@gammarers/aws-iam-transfer-logging-role.IamTransferLoggingRole.with"></a>
+
+```typescript
+public with(mixins: ...IMixin[]): IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="@gammarers/aws-iam-transfer-logging-role.IamTransferLoggingRole.with.parameter.mixins"></a>
+
+- *Type:* ...constructs.IMixin[]
+
+The mixins to apply.
+
+---
 
 ##### `applyRemovalPolicy` <a name="applyRemovalPolicy" id="@gammarers/aws-iam-transfer-logging-role.IamTransferLoggingRole.applyRemovalPolicy"></a>
 
